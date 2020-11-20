@@ -80,6 +80,7 @@ export default {
 		},
 		send() {
 			//发送反馈
+			
 			console.log(JSON.stringify(this.sendDate));
 
 			if (!this.sendDate.content) {
