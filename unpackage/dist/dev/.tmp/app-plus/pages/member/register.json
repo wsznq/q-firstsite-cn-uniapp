@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "登录",
+  "navigationStyle": "custom",
+  "titleNView": false,
+  "bounce": "none",
+  "scrollIndicator": "none",
+  "usingComponents": {
+    "w-input": "/components/watch-login/watch-input",
+    "w-button": "/components/watch-login/watch-button"
+  }
+}

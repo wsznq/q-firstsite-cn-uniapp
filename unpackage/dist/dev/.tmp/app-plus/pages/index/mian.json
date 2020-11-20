@@ -1,0 +1,23 @@
+{
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true,
+  "bounce": "none",
+  "pullToRefresh": {
+    "style": "circle",
+    "color": "#FC3F78",
+    "offset": "50px"
+  },
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "",
+        "float": "left"
+      }
+    ]
+  },
+  "usingComponents": {
+    "orange-goods-news-list": "/components/uni-pro/orange-goods-news-list",
+    "load-more": "/components/uni-pro/load-more",
+    "empty": "/components/empty"
+  }
+}

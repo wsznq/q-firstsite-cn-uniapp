@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "超级搜索",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true,
+  "usingComponents": {}
+}

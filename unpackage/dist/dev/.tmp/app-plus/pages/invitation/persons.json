@@ -1,0 +1,19 @@
+{
+  "navigationBarTitleText": "成员中心",
+  "background": "#f8f8f8",
+  "bounce": "none",
+  "scrollIndicator": "none",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "海报",
+        "fontSize": "16",
+        "float": "right",
+        "color": "#fff"
+      }
+    ]
+  },
+  "usingComponents": {
+    "empty": "/components/empty"
+  }
+}

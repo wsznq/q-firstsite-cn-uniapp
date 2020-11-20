@@ -1,0 +1,9 @@
+{
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "新手引导",
+  "enablePullDownRefresh": false,
+  "bounce": "none",
+  "scrollIndicator": "none",
+  "titleNView": true,
+  "usingComponents": {}
+}

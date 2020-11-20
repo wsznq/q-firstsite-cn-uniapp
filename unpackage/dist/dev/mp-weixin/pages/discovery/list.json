@@ -1,0 +1,6 @@
+{
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "发现好货",
+  "enablePullDownRefresh": true,
+  "usingComponents": {}
+}

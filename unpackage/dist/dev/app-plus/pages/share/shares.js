@@ -1,0 +1,2 @@
+setCssToHead(["@charset \x22UTF-8\x22;\n.",[1],"back-btn { position: absolute; left: 20px; z-index: 9999; padding-top: var(--status-bar-height); top: 20px; font-size: 20px; }\n",],undefined,{path:"./pages/share/shares.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/share/shares.wxml') } }));

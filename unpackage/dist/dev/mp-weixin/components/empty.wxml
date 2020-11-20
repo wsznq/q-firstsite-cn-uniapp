@@ -1,0 +1,1 @@
+<view class="empty-content"><image class="empty-content-image" src="{{typeSrc.empty}}" mode="aspectFit"></image><view style="color:#999999;margin-top:8px;font-size:13px;">{{des}}</view></view>

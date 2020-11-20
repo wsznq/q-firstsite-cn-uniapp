@@ -1,0 +1,19 @@
+{
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true,
+  "bounce": "none",
+  "pullToRefresh": {
+    "style": "circle",
+    "color": "#FC3F78",
+    "offset": "50px"
+  },
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "",
+        "float": "left"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

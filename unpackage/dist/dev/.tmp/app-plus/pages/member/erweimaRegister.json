@@ -1,0 +1,8 @@
+{
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "关注公众号省钱兄",
+  "enablePullDownRefresh": false,
+  "bounce": "none",
+  "titleNView": false,
+  "usingComponents": {}
+}

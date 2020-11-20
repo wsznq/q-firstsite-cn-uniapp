@@ -1,0 +1,9 @@
+{
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "意见反馈",
+  "enablePullDownRefresh": false,
+  "bounce": "none",
+  "scrollIndicator": "none",
+  "titleNView": true,
+  "usingComponents": {}
+}

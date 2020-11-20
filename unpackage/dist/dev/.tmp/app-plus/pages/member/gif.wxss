@@ -1,0 +1,163 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.tugurl {
+  color: #999;
+}
+.back-btn {
+  position: absolute;
+  left: 20px;
+  z-index: 9999;
+  padding-top: var(--status-bar-height);
+  top: 20px;
+  font-size: 20px;
+  color: white;
+}
+.content {
+  position: absolute;
+  width: 100%;
+}
+.sharbuttn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.shartitle {
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+  border-bottom: 1px solid #dddddd;
+  position: relative;
+  height: 30px;
+}
+.tgtit {
+  text-align: center;
+}
+.shartitle view {
+  height: 25px;
+  line-height: 25px;
+  font-size: 14px;
+  color: #999;
+  width: 60px;
+  margin: 16px auto;
+  position: absolute;
+  background: #fff;
+  left: 50%;
+  margin-left: -30px;
+}
+.sharapk {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  margin: 10px auto;
+}
+.sharapk view {
+  margin: 20px;
+}
+.sharapk view image {
+  height: 40px;
+  width: 40px;
+}
+.content {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+}
+.banner {
+  width: 100%;
+  background-color: #FFFFFF;
+  border-radius: 30px 30px 0 0;
+  margin-top: -90px;
+}
+.banner ._dl {
+  margin-top: -40px;
+}
+.banner ._dl ._dt {
+  text-align: center;
+}
+.banner ._dl ._dt image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.banner ._dl ._dd {
+  text-align: center;
+}
+.img {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.img image {
+  width: 100%;
+  height: 100%;
+}
+.btn {
+  width: 130px;
+  height: 30px;
+  line-height: 30px;
+  margin: 0 auto;
+  margin-top: 16px;
+  border-radius: 20px;
+  border: 0;
+  font-size: 13px;
+  outline: 0;
+  background: #FF6DB2;
+  color: #FFFFFF;
+  text-align: center;
+}
+.bottom {
+  margin-top: 16px;
+  text-align: center;
+  width: 100%;
+  background-position: left bottom;
+  /* 设置背景图片位置 */
+  background-size: 20%;
+}
+.bottom ._ul {
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+.bottom ._ul ._li {
+  width: 100%;
+  height: 30px;
+}
+

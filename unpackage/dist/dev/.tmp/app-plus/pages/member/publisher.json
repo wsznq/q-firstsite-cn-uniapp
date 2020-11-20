@@ -1,0 +1,15 @@
+{
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "会员申请",
+  "enablePullDownRefresh": false,
+  "bounce": "none",
+  "scrollIndicator": "none",
+  "titleNView": {
+    "buttons": [
+      {
+        "float": "left"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

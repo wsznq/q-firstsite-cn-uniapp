@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "分享",
+  "navigationStyle": "custom",
+  "bounce": "none",
+  "titleNView": false,
+  "usingComponents": {
+    "wm-poster": "/components/wm-poster/wm-poster"
+  }
+}

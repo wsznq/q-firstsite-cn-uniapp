@@ -1,0 +1,13 @@
+{
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "京选好货",
+  "enablePullDownRefresh": false,
+  "scrollIndicator": "none",
+  "bounce": "none",
+  "titleNView": true,
+  "usingComponents": {
+    "jd-goods-list": "/components/uni-pro/jd-goods-list",
+    "load-more": "/components/uni-pro/load-more",
+    "empty": "/components/empty"
+  }
+}

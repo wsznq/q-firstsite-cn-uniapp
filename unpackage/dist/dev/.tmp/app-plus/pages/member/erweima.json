@@ -1,0 +1,8 @@
+{
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "关注提醒",
+  "enablePullDownRefresh": false,
+  "bounce": "none",
+  "titleNView": true,
+  "usingComponents": {}
+}

@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "掌上淘券",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": false,
+  "titleNView": false,
+  "bounce": "none",
+  "usingComponents": {
+    "tki-qrcode": "/components/tki-qrcode/tki-qrcode",
+    "orange-goods-list": "/components/uni-pro/orange-goods-list",
+    "load-more": "/components/uni-pro/load-more",
+    "empty": "/components/empty",
+    "orange-goods-card-home": "/components/uni-pro/orange-goods-card-home",
+    "simple-modal": "/components/simple-pro/customModal"
+  }
+}

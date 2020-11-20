@@ -1,0 +1,23 @@
+{
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true,
+  "bounce": "none",
+  "pullToRefresh": {
+    "style": "circle",
+    "color": "#FC3F78",
+    "offset": "50px"
+  },
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "",
+        "float": "left"
+      }
+    ]
+  },
+  "usingComponents": {
+    "orange-goods-card-home": "/components/uni-pro/orange-goods-card-home",
+    "load-more": "/components/uni-pro/load-more",
+    "empty": "/components/empty"
+  }
+}

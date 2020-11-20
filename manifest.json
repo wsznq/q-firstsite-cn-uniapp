@@ -1,0 +1,185 @@
+{
+    "name" : "掌上优惠",
+    "appid" : "__UNI__642B11E",
+    "description" : "掌上优惠是一个汇聚了全网隐藏优惠券的网购返利软件 ！这里汇聚淘宝、京东、天猫、拼多多等商城优惠券信息！每天实时更新优惠券，发放一些商家的大额优惠券！",
+    "versionName" : "1.0.1",
+    "versionCode" : 9,
+    "transformPx" : false,
+    "app-plus" : {
+        /* 5+App特有相关 */
+        "splashscreen" : {
+            "autoclose" : true,
+            "waiting" : true,
+            "alwaysShowBeforeRender" : true
+        },
+        "modules" : {
+            "Statistic" : {},
+            "SQLite" : {}
+        },
+        /* 模块配置 */
+        "distribute" : {
+            /* 应用发布信息 */
+            "android" : {
+                /* android打包配置 */
+                "permissions" : [
+                    "<uses-feature android:name=\"android.hardware.camera\"/>",
+                    "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
+                    "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+                    "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+                    "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
+                    "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_CONTACTS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+                    "<uses-permission android:name=\"android.permission.RECEIVE_BOOT_COMPLETED\"/>",
+                    "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
+                    "<uses-permission android:name=\"android.permission.SYSTEM_ALERT_WINDOW\"/>",
+                    "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_CONTACTS\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>",
+                    "<uses-permission android:name=\"android.permission.RECEIVE_USER_PRESENT\"/>"
+                ],
+                "minSdkVersion" : 19,
+                "targetSdkVersion" : 26
+            },
+            "ios" : {
+                "urltypes" : [
+                    {
+                        "urlschemes" : [ "tbopen27748674" ],
+                        "id" : "tbopen"
+                    }
+                ],
+                "urlschemewhitelist" : [ "taobao", "tianmao", "tbopen", "tmall" ]
+            },
+            "schemeWhitelist" : [ "tbopen", "tmall", "taobao", "tianmao" ],
+            "appWhitelist" : [ "tbopen", "tmall", "taobao", "tianmao" ],
+            /* ios打包配置 */
+            "sdkConfigs" : {
+                "oauth" : {},
+                "push" : {},
+                "statics" : {},
+                "share" : {}
+            },
+            "icons" : {
+                "android" : {
+                    "hdpi" : "",
+                    "xhdpi" : "",
+                    "xxhdpi" : "",
+                    "xxxhdpi" : ""
+                },
+                "ios" : {
+                    "appstore" : "",
+                    "ipad" : {
+                        "app" : "",
+                        "app@2x" : "",
+                        "notification" : "",
+                        "notification@2x" : "",
+                        "proapp@2x" : "",
+                        "settings" : "",
+                        "settings@2x" : "",
+                        "spotlight" : "",
+                        "spotlight@2x" : ""
+                    },
+                    "iphone" : {
+                        "app@2x" : "",
+                        "app@3x" : "",
+                        "notification@2x" : "",
+                        "notification@3x" : "",
+                        "settings@2x" : "",
+                        "settings@3x" : "",
+                        "spotlight@2x" : "",
+                        "spotlight@3x" : ""
+                    }
+                }
+            },
+            "splashscreen" : {
+                "android" : {
+                    "hdpi" : "",
+                    "xhdpi" : "",
+                    "xxhdpi" : ""
+                },
+                "ios" : {
+                    "iphone" : {
+                        "portrait-896h@3x" : "",
+                        "landscape-896h@3x" : "",
+                        "portrait-896h@2x" : "",
+                        "landscape-896h@2x" : "",
+                        "iphonex" : "",
+                        "iphonexl" : "",
+                        "retina55" : "",
+                        "retina55l" : "",
+                        "retina47" : "",
+                        "retina47l" : "",
+                        "retina40" : "",
+                        "retina40l" : "",
+                        "retina35" : ""
+                    },
+                    "ipad" : {
+                        "portrait-1366h@2x" : "",
+                        "landscape-1366h@2x" : "",
+                        "portrait-1194h@2" : "",
+                        "landscape-1194h@2x" : "",
+                        "portrait-1112h@2x" : "",
+                        "landscape-1112h@2x" : "",
+                        "portrait-retina7" : "",
+                        "landscape-retina7" : "",
+                        "portrait7" : "",
+                        "landscape7" : ""
+                    }
+                }
+            }
+        },
+        "usingComponents" : true,
+        "nativePlugins" : {}
+    },
+    // "nativePlugins" : {
+    //     "Html5app-Baichuan" : {
+    //         "__plugin_info__" : {
+    //             "name" : "Android 和 IOS 阿里百川 淘宝授权登录插件",
+    //             "description" : "阿里百川 淘宝授权登录插件, 支持android 和 ios  QQ交流群：891416757",
+    //             "platforms" : "Android,iOS",
+    //             "url" : "https://ext.dcloud.net.cn/plugin?id=729",
+    //             "android_package_name" : "com.maxd.sqx",
+    //             "ios_bundle_id" : "com.maxd.sqx",
+    //             "isCloud" : true,
+    //             "bought" : 1,
+    //             "pid" : "729",
+    //             "parameters" : {}
+    //         }
+    //     }
+    // }
+    /* SDK配置 */
+    "quickapp" : {},
+    /* 快应用特有相关 */
+    "mp-weixin" : {
+        /* 小程序特有相关 */
+        "appid" : "",
+        "setting" : {
+            "urlCheck" : true
+        }
+    },
+    "uniStatistics" : {
+        "enable" : true
+    },
+    "mp-qq" : {
+        "setting" : {
+            "es6" : false
+        }
+    },
+    "h5" : {
+        "title" : "掌上优惠",
+        "domain" : "firstsite.cn",
+        "router" : {
+            "base" : "/h5/"
+        },
+        "devServer" : {
+            "https" : false
+        }
+    }
+}

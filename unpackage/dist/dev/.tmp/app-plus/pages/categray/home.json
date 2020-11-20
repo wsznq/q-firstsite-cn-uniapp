@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "热门分类",
+  "navigationBarTextStyle": "white",
+  "scrollIndicator": "none",
+  "bounce": "none",
+  "titleNView": true,
+  "usingComponents": {}
+}

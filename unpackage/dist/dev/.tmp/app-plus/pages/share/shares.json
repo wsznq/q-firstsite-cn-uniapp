@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "海报推广",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": false,
+  "bounce": "none",
+  "scrollIndicator": "none",
+  "titleNView": true,
+  "usingComponents": {
+    "wm-poster": "/components/wm-poster/wm-posters"
+  }
+}

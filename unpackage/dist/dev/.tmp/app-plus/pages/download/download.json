@@ -1,0 +1,8 @@
+{
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "省钱兄APP下载",
+  "enablePullDownRefresh": false,
+  "bounce": "none",
+  "titleNView": false,
+  "usingComponents": {}
+}

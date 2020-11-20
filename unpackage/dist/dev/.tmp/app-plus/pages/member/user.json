@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "我的",
+  "navigationStyle": "custom",
+  "bounce": "none",
+  "titleNView": false,
+  "usingComponents": {
+    "list-cell": "/components/mix-list-cell"
+  }
+}

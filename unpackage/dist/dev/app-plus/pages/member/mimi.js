@@ -1,0 +1,2 @@
+setCssToHead(["body { background: #FFFFFF; }\n",],undefined,{path:"./pages/member/mimi.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/member/mimi.wxml') } }));

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "热销榜",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true,
+  "usingComponents": {}
+}

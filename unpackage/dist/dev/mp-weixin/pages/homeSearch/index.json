@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "超级搜索",
+  "enablePullDownRefresh": false,
+  "navigationBarTextStyle": "white",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "simple-modal": "/components/simple-pro/customModal"
+  }
+}

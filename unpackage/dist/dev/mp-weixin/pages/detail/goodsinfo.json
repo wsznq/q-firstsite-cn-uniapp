@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "商品详情",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "tki-qrcode": "/components/tki-qrcode/tki-qrcode",
+    "simple-modal": "/components/simple-pro/customModal",
+    "wm-poster": "/components/wm-poster/wm-poster"
+  }
+}

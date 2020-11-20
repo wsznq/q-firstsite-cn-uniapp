@@ -1,0 +1,13 @@
+{
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "发现好货",
+  "enablePullDownRefresh": true,
+  "bounce": "none",
+  "scrollIndicator": "none",
+  "titleNView": true,
+  "usingComponents": {
+    "orange-handpick": "/components/uni-pro/orange-handpick",
+    "orange-news": "/components/uni-pro/orange-news",
+    "load-more": "/components/uni-pro/load-more"
+  }
+}

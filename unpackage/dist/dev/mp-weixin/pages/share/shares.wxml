@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['dblclick',[['navBack',['$event']]]]]}}" style="width:100%;height:100%;position:absolute;background:white;" binddblclick="__e"><view style="background:whitesmoke;"><wm-poster vue-id="2321dd09-1" imgSrc="{{itempic}}" QrSrc="{{erweima}}" Title="{{itemtitle}}" PriceTxt="{{itemendprice}}" OriginalTxt="{{itemprice}}" bind:__l="__l"></wm-poster></view></view>

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "绑定手机号",
+  "bounce": "none",
+  "titleNView": true,
+  "usingComponents": {
+    "list-cell": "/components/com-input"
+  }
+}

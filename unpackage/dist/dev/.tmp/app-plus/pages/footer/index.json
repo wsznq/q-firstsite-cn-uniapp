@@ -1,0 +1,18 @@
+{
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "我的足迹",
+  "enablePullDownRefresh": false,
+  "bounce": "none",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "",
+        "float": "left"
+      }
+    ]
+  },
+  "usingComponents": {
+    "orange-goods-list": "/components/uni-pro/orange-goods-list",
+    "empty": "/components/empty"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/jd/list",
+    "pages/categray/index",
+    "pages/categray/home",
+    "pages/hot/index",
+    "pages/index/list",
+    "pages/index/tuiguang",
+    "pages/index/dae",
+    "pages/member/xieyi",
+    "pages/index/mian",
+    "pages/index/nine",
+    "pages/index/food",
+    "pages/footer/index",
+    "pages/member/mimi",
+    "pages/member/down",
+    "pages/member/erweima",
+    "pages/download/download",
+    "pages/member/customer",
+    "pages/member/erweimaRegister",
+    "pages/jd/details",
+    "pages/member/webview",
+    "pages/discovery/list",
+    "pages/member/ping",
+    "pages/member/publisher",
+    "pages/footer/like",
+    "pages/search/search",
+    "pages/cate/index",
+    "pages/homeSearch/index",
+    "pages/member/login",
+    "pages/member/register",
+    "pages/order/order",
+    "pages/invitation/order",
+    "pages/member/cashList",
+    "pages/member/cash",
+    "pages/member/yao",
+    "pages/set/set",
+    "pages/member/account",
+    "pages/member/yaoqing",
+    "pages/invitation/persons",
+    "pages/public/login",
+    "pages/public/bind",
+    "pages/public/mobile",
+    "pages/public/register",
+    "pages/member/zhifubao",
+    "pages/public/pwd",
+    "pages/member/user",
+    "pages/share/share",
+    "pages/share/shares",
+    "pages/detail/goodsinfo",
+    "pages/detail/goodsinfos",
+    "pages/detail/share",
+    "pages/member/gif",
+    "pages/feedback",
+    "pages/member/news_user",
+    "pages/categray/category",
+    "pages/categray/search"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "省钱兄",
+    "navigationBarBackgroundColor": "#FF6DB2",
+    "backgroundColor": "#FF6DB2"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#FC3F78",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/img/footer/home.png",
+        "selectedIconPath": "static/img/footer/home-act.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/categray/category",
+        "iconPath": "static/img/footer/type.png",
+        "selectedIconPath": "static/img/footer/type-act.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/homeSearch/index",
+        "iconPath": "static/img/footer/search.png",
+        "selectedIconPath": "static/img/footer/search-act.png",
+        "text": "全网超级搜"
+      },
+      {
+        "pagePath": "pages/discovery/list",
+        "iconPath": "static/img/footer/hot.png",
+        "selectedIconPath": "static/img/footer/hot-act.png",
+        "text": "超值精选"
+      },
+      {
+        "pagePath": "pages/member/user",
+        "iconPath": "static/img/footer/my.png",
+        "selectedIconPath": "static/img/footer/my-act.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "掌上淘券",
+  "compilerVersion": "2.6.8",
+  "usingComponents": {
+    "orange-news": "/components/uni-pro/orange-news",
+    "orange-handpick": "/components/uni-pro/orange-handpick",
+    "load-more": "/components/uni-pro/load-more",
+    "loading": "/components/xuan-loading/xuan-loading",
+    "empty": "/components/empty",
+    "orange-goods-list": "/components/uni-pro/orange-goods-list",
+    "orange-goods-news-list": "/components/uni-pro/orange-goods-news-list",
+    "orange-goods-card": "/components/uni-pro/orange-goods-card",
+    "orange-goods-card-home": "/components/uni-pro/orange-goods-card-home",
+    "jd-goods-list": "/components/uni-pro/jd-goods-list"
+  }
+}

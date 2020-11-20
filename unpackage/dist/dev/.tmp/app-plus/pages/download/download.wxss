@@ -1,0 +1,44 @@
+
+#shareit {
+    -webkit-user-select: none;
+    position: fixed;
+    /*width: 100%;*/
+    height: 2000px;
+    background: rgba(0, 0, 0, 0.85);
+    text-align: center;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+#shareit ._img {
+    max-width: 100%;
+}
+.arrow {
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    right: 5%;
+    top: 1%;
+}
+#follow {
+    margin-right: 60px;
+    margin-left: 30px;
+    width: 90%;
+    height: 50px;
+    line-height: 50px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    float: left;
+    margin-top: 160px;
+}
+.home1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: black;
+    background: #f8f8f8;
+    /*background: linear-gradient(0deg, rgba(137, 70, 25, 1) 0%, rgba(240, 180, 72, 1) 51%, rgba(176, 104, 31, 1) 100%);*/
+}
+

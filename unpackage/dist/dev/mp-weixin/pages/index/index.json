@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "掌上淘券",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "tki-qrcode": "/components/tki-qrcode/tki-qrcode",
+    "simple-modal": "/components/simple-pro/customModal"
+  }
+}

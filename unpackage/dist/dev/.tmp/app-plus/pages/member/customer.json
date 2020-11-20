@@ -1,0 +1,8 @@
+{
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "联系客服",
+  "enablePullDownRefresh": false,
+  "bounce": "none",
+  "titleNView": true,
+  "usingComponents": {}
+}

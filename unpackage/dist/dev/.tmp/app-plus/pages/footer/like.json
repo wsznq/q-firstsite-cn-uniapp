@@ -1,0 +1,18 @@
+{
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "我的收藏",
+  "enablePullDownRefresh": false,
+  "bounce": "none",
+  "scrollIndicator": "none",
+  "titleNView": {
+    "buttons": [
+      {
+        "float": "left"
+      }
+    ]
+  },
+  "usingComponents": {
+    "orange-goods-list": "/components/uni-pro/orange-goods-list",
+    "empty": "/components/empty"
+  }
+}

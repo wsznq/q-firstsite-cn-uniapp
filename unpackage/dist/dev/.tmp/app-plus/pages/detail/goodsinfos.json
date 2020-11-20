@@ -1,0 +1,19 @@
+{
+  "navigationBarTitleText": "商品详情",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": false,
+  "bounce": "none",
+  "scrollIndicator": "none",
+  "titleNView": {
+    "type": "transparent",
+    "buttons": [
+      {
+        "type": "menu"
+      }
+    ]
+  },
+  "usingComponents": {
+    "orange-goods-card-home": "/components/uni-pro/orange-goods-card-home",
+    "simple-modal": "/components/simple-pro/customModal"
+  }
+}

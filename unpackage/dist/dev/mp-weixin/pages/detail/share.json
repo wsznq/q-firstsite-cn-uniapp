@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "海报生成",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "wm-poster": "/components/wm-poster/wm-poster"
+  }
+}
