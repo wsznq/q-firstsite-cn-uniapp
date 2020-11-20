@@ -1,5 +1,5 @@
 
-const ROOTPATH = "http://elecall.firstsite.cn";
+const ROOTPATH = "https://www.firstsite.cn";
 module.exports = {
 	APIHOST:ROOTPATH,
 	ROOTPATH:ROOTPATH
