@@ -2,7 +2,7 @@
 	<view class="index-content">
 		<view class="navbar">
 			<view v-for="(item, index) in category" :key="index" class="nav-item" :class="{current: tabFromIndex === index+1}"
-			 @click="tabClicks(index+1)">
+			 @click="tabClicks(item.position)">
 				{{item.name}}
 			</view>
 		</view>
@@ -34,11 +34,13 @@
 		data() {
 			return {
 				pddlogo: "../../static/img/pinduoduo.png",
-				tabFromIndex: 1,
+				tabFromIndex: 5,
 				category: [{
+					    position: 5,
 						name: '实时热销榜'
 					},
 					{
+						position: 6,
 						name: '实时收益榜'
 					}
 				],
@@ -81,7 +83,7 @@
 				let apiUrl = this.$Api.common.coupontoplist_pdd;
 				this.loadingType = 1;
 				this.$Request.getT(apiUrl,{
-					SortType:this.tabFromIndex,
+					ChannelType:this.tabFromIndex,
 					PageNo: this.page
 				}).then(res => {
 						this.loadingType = 0;

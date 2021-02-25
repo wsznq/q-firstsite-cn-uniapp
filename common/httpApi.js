@@ -16,7 +16,7 @@ module.exports = {
 		couponbestlist:"/alimama.aspx?action=TbkDgOptimusMaterial", //公共加载商品（精选）
 		tbsuggest:"/alimama.aspx?action=TbSuggest",//淘宝推荐信息
 		couponlist_jd:"/jdlianmeng.aspx?action=GetJdUnionOpenGoodsJingfenQuery", //京粉精选商品查询接口
-		coupontoplist_pdd:"/pddlianmeng.aspx?action=GetPddDdkTopGoodsListQuery",//多多客获取爆款排行商品接口
+		coupontoplist_pdd:"/pddlianmeng.aspx?action=GetPddDdkGoodsRecommend",//多多客获取爆款排行商品接口
 		couponlistsearch_pdd:"/pddlianmeng.aspx?action=GetPddDdkGoodsSearch",//多多进宝商品查询
 		config:"/config/getinfo", // 获取服务端配置
 		update:"/config/update", // 检测更新 
