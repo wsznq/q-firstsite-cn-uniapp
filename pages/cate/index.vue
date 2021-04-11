@@ -21,7 +21,7 @@
 			<load-more :loadingType="loadingType" :contentText="contentText"></load-more>
 		</view>
 		<!-- 加载更多提示 -->
-		<!-- 悬浮上拉了 -->
+		<!-- 悬浮上拉 -->
 		<view class="scroll_top" @tap="topScrollTap" v-bind:class="[scrollTop ? 'active' : '','']" style="bottom: 56px;">
 			<text class="iconfont icon-shangla"></text>
 		</view>
