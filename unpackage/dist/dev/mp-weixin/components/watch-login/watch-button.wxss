@@ -940,10 +940,13 @@
 	height:90rpx;
 	background: -webkit-gradient(linear, left top, left right, color-stop(0, #F15B6C), color-stop(100%, #FF6DB2));
 	background: -webkit-linear-gradient(left, #F15B6C 0, #FF6DB2 100%);
+	background: -webkit-gradient(linear, right top, left top, color-stop(0, #F15B6C), to(#FF6DB2));
 	background: -webkit-linear-gradient(right, #F15B6C 0, #FF6DB2 100%);
 	background: linear-gradient(to left, #F15B6C 0, #FF6DB2 100%);
-	box-shadow:0rpx 0rpx 13rpx 0rpx rgba(164,217,228,0.4);
-	border-radius:2.5rem;
+	-webkit-box-shadow:0rpx 0rpx 13rpx 0rpx rgba(164,217,228,0.4);
+	        box-shadow:0rpx 0rpx 13rpx 0rpx rgba(164,217,228,0.4);
+	-webkit-border-radius:2.5rem;
+	        border-radius:2.5rem;
 	line-height: 90rpx;
 	text-align: center;
 	margin-left: auto;
@@ -957,10 +960,13 @@
 	height:100rpx;
 	background: -webkit-gradient(linear, left top, left right, color-stop(0, #F15B6C), color-stop(100%, #FF6DB2));
 	background: -webkit-linear-gradient(left, #F15B6C 0, #FF6DB2 100%);
+	background: -webkit-gradient(linear, right top, left top, color-stop(0, #F15B6C), to(#FF6DB2));
 	background: -webkit-linear-gradient(right, #F15B6C 0, #FF6DB2 100%);
 	background: linear-gradient(to left, #F15B6C 0, #FF6DB2 100%);
-	box-shadow:0rpx 0rpx 13rpx 0rpx rgba(164,217,228,0.4);
-	border-radius:2.5rem;
+	-webkit-box-shadow:0rpx 0rpx 13rpx 0rpx rgba(164,217,228,0.4);
+	        box-shadow:0rpx 0rpx 13rpx 0rpx rgba(164,217,228,0.4);
+	-webkit-border-radius:2.5rem;
+	        border-radius:2.5rem;
 	line-height: 100rpx;
 	text-align: center;
 	margin-left: auto;
@@ -969,7 +975,9 @@
 }
 .buttonBorder{
     border: none ;
-    border-radius: 2.5rem ;
+    -webkit-border-radius: 2.5rem ;
+            border-radius: 2.5rem ;
+    -webkit-box-shadow: 0 0 60rpx 0 rgba(0,0,0,.2);
     box-shadow: 0 0 60rpx 0 rgba(0,0,0,.2);
     -webkit-transition: all 0.4s cubic-bezier(.57,.19,.51,.95);
     transition: all 0.4s cubic-bezier(.57,.19,.51,.95);

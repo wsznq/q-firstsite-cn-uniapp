@@ -59,7 +59,8 @@
   -webkit-box-align: center;
   -webkit-align-items: center;
           align-items: center;
-  border-radius: 20rpx;
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
   margin: auto;
   top: 0;
   left: 0;
@@ -84,28 +85,29 @@
   margin: auto;
 }
 .circle-loading .dot {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 150rpx;
-    height: 150rpx;
-    -webkit-animation: 1.5s loadrotate cubic-bezier(0.8, 0.005, 0.5, 1) infinite;
-            animation: 1.5s loadrotate cubic-bezier(0.8, 0.005, 0.5, 1) infinite;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150rpx;
+  height: 150rpx;
+  -webkit-animation: 1.5s loadrotate cubic-bezier(0.8, 0.005, 0.5, 1) infinite;
+          animation: 1.5s loadrotate cubic-bezier(0.8, 0.005, 0.5, 1) infinite;
 }
 .circle-loading .dot:after,
-    .circle-loading .dot .first-dot {
-      content: '';
-      position: absolute;
-      width: 18rpx;
-      height: 18rpx;
-      background: #3aa4f0;
-      border-radius: 50%;
-      left: 50%;
+.circle-loading .dot .first-dot {
+  content: '';
+  position: absolute;
+  width: 18rpx;
+  height: 18rpx;
+  background: #3aa4f0;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  left: 50%;
 }
 .circle-loading .dot .first-dot {
-      background: #3aa4f0;
-      -webkit-animation: 1.5s dotscale cubic-bezier(0.8, 0.005, 0.5, 1) infinite;
-              animation: 1.5s dotscale cubic-bezier(0.8, 0.005, 0.5, 1) infinite;
+  background: #3aa4f0;
+  -webkit-animation: 1.5s dotscale cubic-bezier(0.8, 0.005, 0.5, 1) infinite;
+          animation: 1.5s dotscale cubic-bezier(0.8, 0.005, 0.5, 1) infinite;
 }
 .circle-loading > .dot:nth-child(1) {
   -webkit-animation-delay: 0.15s;
@@ -199,9 +201,9 @@ to {
   text-align: center;
 }
 .rectangle-loading .dot {
-    height: 50px;
-    width: 10px;
-    margin-right: 20rpx;
+  height: 50px;
+  width: 10px;
+  margin-right: 20rpx;
 }
 .rectangle-loading > .dot:nth-child(1) {
   -webkit-animation: load-frame 1s infinite linear 0.12s;

@@ -49,43 +49,43 @@ page {
           justify-content: center;
 }
 .list-cell.log-out-btn {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 .list-cell.log-out-btn .cell-tit {
-      color: #eee;
-      text-align: center;
-      margin-right: 0;
+  color: #eee;
+  text-align: center;
+  margin-right: 0;
 }
 .list-cell.cell-hover {
-    background: #fafafa;
+  background: #fafafa;
 }
 .list-cell.b-b:after {
-    left: 16px;
+  left: 16px;
 }
 .list-cell.m-t {
-    margin-top: 9px;
+  margin-top: 9px;
 }
 .list-cell .cell-more {
-    -webkit-align-self: baseline;
-            align-self: baseline;
-    font-size: 32rpx;
-    color: #909399;
-    margin-left: 6px;
+  -webkit-align-self: baseline;
+          align-self: baseline;
+  font-size: 32rpx;
+  color: #909399;
+  margin-left: 6px;
 }
 .list-cell .cell-tit {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
-            flex: 1;
-    font-size: 30rpx;
-    color: #303133;
-    margin-right: 6px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  font-size: 30rpx;
+  color: #303133;
+  margin-right: 6px;
 }
 .list-cell .cell-tip {
-    font-size: 28rpx;
-    color: #909399;
+  font-size: 28rpx;
+  color: #909399;
 }
 .list-cell switch {
-    -webkit-transform: translateX(8px) scale(0.84);
-            transform: translateX(8px) scale(0.84);
+  -webkit-transform: translateX(8px) scale(0.84);
+          transform: translateX(8px) scale(0.84);
 }
 

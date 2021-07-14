@@ -48,7 +48,8 @@
   opacity: 0.5;
 }
 .mix-list-cell {
-  border-radius: 16rpx;
+  -webkit-border-radius: 16rpx;
+          border-radius: 16rpx;
   border: 1px solid #F1F1F1;
   margin-top: 1px;
   font-size: 32rpx;
@@ -62,33 +63,33 @@
   position: relative;
 }
 .mix-list-cell.cell-hover {
-    background: transparent;
+  background: transparent;
 }
 .mix-list-cell.b-b:after {
-    left: 16px;
+  left: 16px;
 }
 .mix-list-cell .cell-icon {
-    -webkit-align-self: center;
-            align-self: center;
-    width: 28px;
-    max-height: 30px;
-    font-size: 18px;
+  -webkit-align-self: center;
+          align-self: center;
+  width: 28px;
+  max-height: 30px;
+  font-size: 18px;
 }
 .mix-list-cell .cell-more {
-    -webkit-align-self: center;
-            align-self: center;
-    font-size: 16px;
-    color: #606266;
-    margin-left: 10px;
+  -webkit-align-self: center;
+          align-self: center;
+  font-size: 16px;
+  color: #606266;
+  margin-left: 10px;
 }
 .mix-list-cell .cell-tit {
-    width: 80px;
-    font-size: 16px;
-    color: black;
+  width: 80px;
+  font-size: 16px;
+  color: black;
 }
 .mix-list-cell .cell-tip {
-    font-size: 14px;
-    color: black;
+  font-size: 14px;
+  color: black;
 }
 .items {
   position: absolute;
@@ -135,7 +136,9 @@
   color: black !important;
 }
 .oBorder {
-  border-radius: 2.5rem;
+  -webkit-border-radius: 2.5rem;
+          border-radius: 2.5rem;
+  -webkit-box-shadow: 0 0 30px 0 rgba(43, 86, 112, 0.1);
   box-shadow: 0 0 30px 0 rgba(43, 86, 112, 0.1);
 }
 

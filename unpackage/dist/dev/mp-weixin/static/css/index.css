@@ -1072,3 +1072,10 @@
     height: 22px;
     margin-left: 42%;
 }
+.dianpu {
+	color: rgb(153, 153, 153);
+	position: absolute;
+	margin-top: 12upx;
+	width: 49%;
+	padding-left: 8upx;
+}

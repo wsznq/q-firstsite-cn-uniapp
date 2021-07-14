@@ -19,6 +19,7 @@
     position: relative;
     background: -webkit-gradient(linear, left top, left right, color-stop(0, #F15B6C), color-stop(100%, #FF6DB2));
     background: -webkit-linear-gradient(left, #F15B6C 0, #FF6DB2 100%);
+    background: -webkit-gradient(linear, right top, left top, color-stop(0, #F15B6C), to(#FF6DB2));
     background: -webkit-linear-gradient(right, #F15B6C 0, #FF6DB2 100%);
     background: linear-gradient(to left, #F15B6C 0, #FF6DB2 100%);
 }
@@ -136,7 +137,8 @@
 .index-content .juhuasuan-list .juhuasuan-list-goods .image {
     display: block;
     margin: 0 2px;
-    border-radius: 5px;
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
     overflow: hidden;
     position: relative;
     z-index: 0;
@@ -223,7 +225,8 @@
 .index-content .index-coupon .goods-list .coupon-page .image image {
     width: 240rpx;
     height: 240rpx;
-    border-radius: 3px;
+    -webkit-border-radius: 3px;
+            border-radius: 3px;
 }
 .index-content .index-coupon .goods-list .coupon-page .content {
     float: right;
@@ -281,6 +284,7 @@
     /*background: linear-gradient(to left, #FC3F78 0, #FF927C 100%);*/
     background: -webkit-gradient(linear, left top, left right, color-stop(0, #FC3F78), color-stop(100%, #FF927C));
     background: -webkit-linear-gradient(left, #FC3F78 0, #FF927C 100%);
+    background: -webkit-gradient(linear, right top, left top, color-stop(0, #FC3F78), to(#FF927C));
     background: -webkit-linear-gradient(right, #FC3F78 0, #FF927C 100%);
     background: linear-gradient(to left, #FC3F78 0, #FF927C 100%);
     position: relative;
@@ -310,7 +314,8 @@
     width: 5px;
     height: 5px;
     content: "";
-    border-radius: 10px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     border: 1px solid #fff;
     left: auto;
     right: -4px;
@@ -326,7 +331,8 @@
     width: 5px;
     height: 5px;
     content: "";
-    border-radius: 10px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     border: 1px solid #fff;
     left: -4px;
 }
@@ -626,7 +632,8 @@
     zoom: 1;
     z-index: 5;
     background: #fff;
-    box-shadow: 0 -2px 2px 0 rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 0 -2px 2px 0 rgba(0, 0, 0, .1);
+            box-shadow: 0 -2px 2px 0 rgba(0, 0, 0, .1);
 }
 .index-goods .goods_shop_cart .but .img {
     position: relative;
@@ -654,6 +661,7 @@
     z-index: 1;
     zoom: 1;
     top: 10px;
+    background: -webkit-gradient(linear, right top, left top, color-stop(0, #FC3F78), to(#FE9F69));
     background: -webkit-linear-gradient(right, #FC3F78 0, #FE9F69 100%);
     background: linear-gradient(to left, #FC3F78 0, #FE9F69 100%);
     width: 65%;
@@ -674,6 +682,7 @@
     /* 	border-radius: 3px 0 0 3px; */
 }
 .index-goods .goods_shop_cart .is-col-16 .btn .coupon-buy {
+    background: -webkit-gradient(linear, right top, left top, color-stop(0, #FC3F78), to(#FBAA58));
     background: -webkit-linear-gradient(right, #FC3F78 0, #FBAA58 100%);
     background: linear-gradient(to left, #FC3F78 0, #FBAA58 100%);
     height: 42px;
@@ -694,7 +703,8 @@
     left: 2.5%;
     width: 95%;
     background: #fff;
-    border-radius: 4px;
+    -webkit-border-radius: 4px;
+            border-radius: 4px;
     opacity: 0;
     bottom: -200px;
     transition: all .3s cubic-bezier(.4, .68, .15, 1.21) .2s;
@@ -749,6 +759,7 @@
     -webkit-transform: translateY(0) translateX(100%);
     transform: translateY(0) translateX(100%);
     padding-bottom: 5px;
+    -webkit-box-shadow: -1px 1px 3px rgba(125, 125, 125, .2);
     box-shadow: -1px 1px 3px rgba(125, 125, 125, .2);
 }
 .index-goods .h_newlit.active {
@@ -818,6 +829,7 @@
     height: 40px;
     line-height: 40px;
     text-align: center;
+    background: -webkit-gradient(linear, left top, right top, from(#FC3F78), to(#FFBF63));
     background: -webkit-linear-gradient(left, #FC3F78, #FFBF63);
     background: linear-gradient(to right, #FC3F78, #FFBF63);
     -webkit-background-clip: text;
@@ -843,7 +855,8 @@
     font-size: 14px;
     line-height: 24px;
     height: 260px;
-    border-radius: 4px;
+    -webkit-border-radius: 4px;
+            border-radius: 4px;
     overflow: hidden;
     text-align: left;
 }
@@ -859,10 +872,12 @@
     margin-left: 10px;
 }
 .buy-box-center .buy-btn-copy {
+    background: -webkit-gradient(linear, right top, left top, color-stop(0, #FC3F78), to(#FB85F7));
     background: -webkit-linear-gradient(right, #FC3F78 0, #FB85F7 100%);
     background: linear-gradient(to left, #FC3F78 0, #FB85F7 100%);
     display: block;
-    border-radius: 50px;
+    -webkit-border-radius: 50px;
+            border-radius: 50px;
     line-height: 40px;
     height: 40px;
     text-align: center;
@@ -887,6 +902,7 @@
 .getTbk{
     background: -webkit-gradient(linear, left top, left right, color-stop(0, #FC3F78), color-stop(100%, #FBAA58));
     background: -webkit-linear-gradient(left, #FC3F78 0, #FBAA58 100%);
+    background: -webkit-gradient(linear, right top, left top, color-stop(0, #FC3F78), to(#FBAA58));
     background: -webkit-linear-gradient(right, #FC3F78 0, #FBAA58 100%);
     background: linear-gradient(to left, #FC3F78 0, #FBAA58 100%);
 }
@@ -897,6 +913,7 @@
 .jiu-page .main-title {
     background: -webkit-gradient(linear, left top, left right, color-stop(0, #FC3F78), color-stop(100%, #FBAA58));
     background: -webkit-linear-gradient(left, #FC3F78 0, #FBAA58 100%);
+    background: -webkit-gradient(linear, right top, left top, color-stop(0, #FC3F78), to(#FBAA58));
     background: -webkit-linear-gradient(right, #FC3F78 0, #FBAA58 100%);
     background: linear-gradient(to left, #FC3F78 0, #FBAA58 100%);
     border-bottom-color: transparent;
@@ -907,8 +924,8 @@
     width: 100%;
     z-index: 120;
     display: block;
-    box-sizing: border-box;
-
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 .jiu-page .main-title .menu-cat {
     font-family: Simhei;
@@ -928,6 +945,13 @@
     width: 65px;
     height: 22px;
     margin-left: 42%;
+}
+.dianpu {
+	color: rgb(153, 153, 153);
+	position: absolute;
+	margin-top: 12rpx;
+	width: 49%;
+	padding-left: 8rpx;
 }
 .cash {
   text-align: center;

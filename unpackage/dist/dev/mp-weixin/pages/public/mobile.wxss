@@ -34,7 +34,8 @@ page {
   background: #fff;
 }
 .send-msg {
-  border-radius: 30px;
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
   color: white;
   height: 30px;
   font-size: 14px;
@@ -77,32 +78,35 @@ page {
   z-index: 95;
 }
 .right-top-sign:before, .right-top-sign:after {
-    display: block;
-    content: '';
-    width: 20px;
-    height: 40px;
-    background: #fc3f78;
+  display: block;
+  content: '';
+  width: 20px;
+  height: 40px;
+  background: #fc3f78;
 }
 .right-top-sign:before {
-    -webkit-transform: rotate(50deg);
-            transform: rotate(50deg);
-    border-radius: 0 50px 0 0;
+  -webkit-transform: rotate(50deg);
+          transform: rotate(50deg);
+  -webkit-border-radius: 0 50px 0 0;
+          border-radius: 0 50px 0 0;
 }
 .right-top-sign:after {
-    position: absolute;
-    right: -198px;
-    top: 0;
-    -webkit-transform: rotate(-50deg);
-            transform: rotate(-50deg);
-    border-radius: 50px 0 0 0;
-    /* background: pink; */
+  position: absolute;
+  right: -198px;
+  top: 0;
+  -webkit-transform: rotate(-50deg);
+          transform: rotate(-50deg);
+  -webkit-border-radius: 50px 0 0 0;
+          border-radius: 50px 0 0 0;
+  /* background: pink; */
 }
 .left-bottom-sign {
   position: absolute;
   left: -270px;
   bottom: -320px;
   /*border: 100upx solid #d0d1fd;*/
-  border-radius: 50%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
   padding: 90px;
 }
 .welcome {
@@ -133,49 +137,54 @@ page {
   padding: 0 30px;
   background: #f8f6fc;
   height: 64px;
-  border-radius: 4px;
+  -webkit-border-radius: 4px;
+          border-radius: 4px;
   margin-bottom: 30px;
 }
 .input-item:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 .input-item .tit {
-    height: 30px;
-    line-height: 28px;
-    font-size: 26rpx;
-    color: #606266;
+  height: 30px;
+  line-height: 28px;
+  font-size: 26rpx;
+  color: #606266;
 }
 .input-item input {
-    height: 40px;
-    font-size: 30rpx;
-    color: #303133;
-    width: 100%;
+  height: 40px;
+  font-size: 30rpx;
+  color: #303133;
+  width: 100%;
 }
 .confirm-btn {
   width: 300px;
   height: 42px;
   line-height: 42px;
-  border-radius: 30px;
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
   margin-top: 70px;
   background: #FF6DB2;
   color: #fff;
   font-size: 32rpx;
 }
 .confirm-btn:after {
-    border-radius: 60px;
+  -webkit-border-radius: 60px;
+          border-radius: 60px;
 }
 .confirm-btn1 {
   width: 300px;
   height: 42px;
   line-height: 42px;
-  border-radius: 30px;
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
   margin-top: 70px;
   background: whitesmoke;
   color: grey;
   font-size: 32rpx;
 }
 .confirm-btn1:after {
-    border-radius: 60px;
+  -webkit-border-radius: 60px;
+          border-radius: 60px;
 }
 .forget-section {
   font-size: 26rpx;
@@ -193,7 +202,7 @@ page {
   text-align: center;
 }
 .register-section text {
-    color: #4399fc;
-    margin-left: 10px;
+  color: #4399fc;
+  margin-left: 10px;
 }
 

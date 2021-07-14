@@ -4,7 +4,7 @@
   "enablePullDownRefresh": false,
   "usingComponents": {
     "tki-qrcode": "/components/tki-qrcode/tki-qrcode",
-    "simple-modal": "/components/simple-pro/customModal",
-    "wm-poster": "/components/wm-poster/wm-poster"
+    "wm-poster": "/components/wm-poster/wm-poster",
+    "simple-modal": "/components/simple-pro/customModal"
   }
 }

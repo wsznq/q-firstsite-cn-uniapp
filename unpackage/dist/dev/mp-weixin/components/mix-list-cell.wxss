@@ -45,35 +45,35 @@
   position: relative;
 }
 .mix-list-cell.cell-hover {
-    background: #fafafa;
+  background: #fafafa;
 }
 .mix-list-cell.b-b:after {
-    left: 30rpx;
+  left: 30rpx;
 }
 .mix-list-cell .cell-icon {
-    -webkit-align-self: center;
-            align-self: center;
-    width: 56rpx;
-    max-height: 60rpx;
-    font-size: 38rpx;
+  -webkit-align-self: center;
+          align-self: center;
+  width: 56rpx;
+  max-height: 60rpx;
+  font-size: 38rpx;
 }
 .mix-list-cell .cell-more {
-    -webkit-align-self: center;
-            align-self: center;
-    font-size: 30rpx;
-    color: #606266;
-    margin-left: 10px;
+  -webkit-align-self: center;
+          align-self: center;
+  font-size: 30rpx;
+  color: #606266;
+  margin-left: 10px;
 }
 .mix-list-cell .cell-tit {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
-            flex: 1;
-    font-size: 28rpx;
-    color: #303133;
-    margin-right: 10rpx;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  font-size: 28rpx;
+  color: #303133;
+  margin-right: 10rpx;
 }
 .mix-list-cell .cell-tip {
-    font-size: 26rpx;
-    color: #909399;
+  font-size: 26rpx;
+  color: #909399;
 }
 

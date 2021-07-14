@@ -19,7 +19,8 @@ view {
 	line-height: 14px;
 	height: 16px;
 	width: 16px;
-	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
 	background: #ff5053;
 	color: #ffffff;
 	position: absolute;
@@ -161,7 +162,8 @@ view {
 	font-size: 32rpx;
 	padding: 16rpx;
 	margin: 16rpx;
-	border-radius: 16rpx;
+	-webkit-border-radius: 16rpx;
+	        border-radius: 16rpx;
 	background: #fff;
 }
 .feedback-textare {
@@ -169,7 +171,8 @@ view {
 	font-size: 34rpx;
 	line-height: 50rpx;
 	width: 100%;
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	padding: 20rpx 30rpx 0;
 }
 .feedback-input {

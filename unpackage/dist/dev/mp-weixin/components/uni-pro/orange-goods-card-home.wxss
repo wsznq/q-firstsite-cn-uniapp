@@ -2,7 +2,8 @@
 .itemInfo1 {
 	float: left;
 	width: 49%;
-	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	        border-radius: 10px;
 	background-color: #fff;
 	margin-top: 8px;
 	margin-right: 3px;
@@ -15,6 +16,7 @@
 	float: right;
 	background: -webkit-gradient(linear, left top, left right, color-stop(0, #fc3f78), color-stop(100%, #ff927c));
 	background: -webkit-linear-gradient(left, #fc3f78 0, #ff927c 100%);
+	background: -webkit-gradient(linear, right top, left top, color-stop(0, #fc3f78), to(#ff927c));
 	background: -webkit-linear-gradient(right, #fc3f78 0, #ff927c 100%);
 	background: linear-gradient(to left, #fc3f78 0, #ff927c 100%);
 	position: relative;
@@ -26,7 +28,7 @@
 	-o-border-radius: 3px;
 	-ms-border-radius: 3px;
 	font-size: 14px;
-	margin-left: 10px;
+	margin-right: 12rpx;
 	min-width: 20px;
 	text-align: center;
 	padding: 1px 10px;
@@ -44,7 +46,8 @@
 	width: 5px;
 	height: 5px;
 	content: '';
-	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	        border-radius: 10px;
 	border: 1px solid #fff;
 	left: auto;
 	right: -4px;
@@ -60,7 +63,8 @@
 	width: 5px;
 	height: 5px;
 	content: '';
-	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	        border-radius: 10px;
 	border: 1px solid #fff;
 	left: -4px;
 }

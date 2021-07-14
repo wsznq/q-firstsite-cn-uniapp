@@ -1,16 +1,15 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/jd/list",
+    "pages/pdd/index",
     "pages/categray/index",
     "pages/categray/home",
     "pages/hot/index",
     "pages/index/list",
-    "pages/index/tuiguang",
     "pages/index/dae",
+    "pages/index/tuiguang",
     "pages/member/xieyi",
     "pages/index/mian",
-    "pages/index/nine",
     "pages/index/food",
     "pages/footer/index",
     "pages/member/mimi",
@@ -19,6 +18,7 @@
     "pages/download/download",
     "pages/member/customer",
     "pages/member/erweimaRegister",
+    "pages/jd/jds",
     "pages/jd/details",
     "pages/member/webview",
     "pages/discovery/list",
@@ -40,6 +40,7 @@
     "pages/member/yaoqing",
     "pages/invitation/persons",
     "pages/public/login",
+    "pages/public/loginphone",
     "pages/public/bind",
     "pages/public/mobile",
     "pages/public/register",
@@ -50,6 +51,8 @@
     "pages/share/shares",
     "pages/detail/goodsinfo",
     "pages/detail/goodsinfos",
+    "pages/detail/pdd",
+    "pages/detail/jd",
     "pages/detail/share",
     "pages/member/gif",
     "pages/feedback",
@@ -60,7 +63,7 @@
   "subPackages": [],
   "window": {
     "navigationBarTextStyle": "white",
-    "navigationBarTitleText": "省钱兄",
+    "navigationBarTitleText": "掌上优惠",
     "navigationBarBackgroundColor": "#FF6DB2",
     "backgroundColor": "#FF6DB2"
   },
@@ -114,5 +117,5 @@
     "orange-goods-card-home": "/components/uni-pro/orange-goods-card-home",
     "jd-goods-list": "/components/uni-pro/jd-goods-list"
   },
-  "sitemapLocation": "sitemap7.json"
+  "sitemapLocation": "sitemap.json"
 }

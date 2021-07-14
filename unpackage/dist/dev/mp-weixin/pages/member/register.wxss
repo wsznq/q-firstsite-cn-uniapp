@@ -984,10 +984,13 @@
 
 	width:161rpx;
 	height:161rpx;
-	box-shadow:0rpx 0rpx 60rpx 0rpx rgba(0,0,0,0.1);
-	border-radius:50%;
+	-webkit-box-shadow:0rpx 0rpx 60rpx 0rpx rgba(0,0,0,0.1);
+	        box-shadow:0rpx 0rpx 60rpx 0rpx rgba(0,0,0,0.1);
+	-webkit-border-radius:50%;
+	        border-radius:50%;
 	background: -webkit-gradient(linear, left top, left right, color-stop(0, #F15B6C), color-stop(100%, #FF6DB2));
 	background: -webkit-linear-gradient(left, #F15B6C 0, #FF6DB2 100%);
+	background: -webkit-gradient(linear, right top, left top, color-stop(0, #F15B6C), to(#FF6DB2));
 	background: -webkit-linear-gradient(right, #F15B6C 0, #FF6DB2 100%);
 	background: linear-gradient(to left, #F15B6C 0, #FF6DB2 100%);
 	margin-top: 180rpx;
@@ -1002,7 +1005,8 @@
 .header image{
 	width:161rpx;
 	height:161rpx;
-	border-radius:50%;
+	-webkit-border-radius:50%;
+	        border-radius:50%;
 }
 /* 主体 */
 .main {

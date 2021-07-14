@@ -42,8 +42,10 @@
 .loading-img>view view {
 	width: 12rpx;
 	height: 4rpx;
-	border-top-left-radius: 1px;
-	border-bottom-left-radius: 1px;
+	-webkit-border-top-left-radius: 1px;
+	        border-top-left-radius: 1px;
+	-webkit-border-bottom-left-radius: 1px;
+	        border-bottom-left-radius: 1px;
 	background: #777;
 	position: absolute;
 	opacity: 0.2;

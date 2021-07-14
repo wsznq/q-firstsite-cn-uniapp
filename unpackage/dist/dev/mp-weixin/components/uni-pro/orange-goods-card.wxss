@@ -7,6 +7,7 @@
     float: right;
     background: -webkit-gradient(linear, left top, left right, color-stop(0, #FC3F78), color-stop(100%, #FF927C));
     background: -webkit-linear-gradient(left, #FC3F78 0, #FF927C 100%);
+    background: -webkit-gradient(linear, right top, left top, color-stop(0, #FC3F78), to(#FF927C));
     background: -webkit-linear-gradient(right, #FC3F78 0, #FF927C 100%);
     background: linear-gradient(to left, #FC3F78 0, #FF927C 100%);
     /*background: #FC3F78;*/
@@ -37,7 +38,8 @@
     width: 5px;
     height: 5px;
     content: "";
-    border-radius: 10px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     border: 1px solid #fff;
     left: auto;
     right: -4px;
@@ -53,7 +55,8 @@
     width: 5px;
     height: 5px;
     content: "";
-    border-radius: 10px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     border: 1px solid #fff;
     left: -4px;
 }

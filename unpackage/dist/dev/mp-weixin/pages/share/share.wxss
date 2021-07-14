@@ -106,6 +106,7 @@
   background-position: center center;
   background: -webkit-gradient(linear, left top, left right, color-stop(0, #F15B6C), color-stop(100%, #FF6DB2));
   background: -webkit-linear-gradient(left, #F15B6C 0, #FF6DB2 100%);
+  background: -webkit-gradient(linear, right top, left top, color-stop(0, #F15B6C), to(#FF6DB2));
   background: -webkit-linear-gradient(right, #F15B6C 0, #FF6DB2 100%);
   background: linear-gradient(to left, #F15B6C 0, #FF6DB2 100%);
 }
@@ -117,13 +118,15 @@
   background-position: center center;
   background: -webkit-gradient(linear, left top, left right, color-stop(0, #F15B6C), color-stop(100%, #FF6DB2));
   background: -webkit-linear-gradient(left, #F15B6C 0, #FF6DB2 100%);
+  background: -webkit-gradient(linear, right top, left top, color-stop(0, #F15B6C), to(#FF6DB2));
   background: -webkit-linear-gradient(right, #F15B6C 0, #FF6DB2 100%);
   background: linear-gradient(to left, #F15B6C 0, #FF6DB2 100%);
 }
 .banner {
   width: 100%;
   background-color: #FFFFFF;
-  border-radius: 30px 30px 0 0;
+  -webkit-border-radius: 30px 30px 0 0;
+          border-radius: 30px 30px 0 0;
 }
 .banner ._dl ._dt {
   text-align: center;
@@ -131,7 +134,8 @@
 .banner ._dl ._dt image {
   width: 80px;
   height: 80px;
-  border-radius: 50%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
 }
 .banner ._dl ._dd {
   text-align: center;
@@ -153,7 +157,8 @@
   line-height: 30px;
   margin: 0 auto;
   margin-top: 16px;
-  border-radius: 20px;
+  -webkit-border-radius: 20px;
+          border-radius: 20px;
   border: 0;
   font-size: 13px;
   outline: 0;
@@ -171,7 +176,8 @@
 }
 .bottom ._ul {
   padding-left: 20px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .bottom ._ul ._li {
   width: 100%;
