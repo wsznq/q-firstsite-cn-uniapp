@@ -245,6 +245,7 @@
 				show_share: false,
 				data: [],
 				itemid: '',
+				goodssign: '',
 				itempic: '',
 				itemtitle: '',
 				itemprice: '',
@@ -303,6 +304,7 @@
 				this.isEnable = a;
 			}
 			if (e) {
+				console.log(e);
 				//#ifdef H5
 				let ua = navigator.userAgent.toLowerCase();
 				if (ua.indexOf('micromessenger') !== -1) {
@@ -315,6 +317,7 @@
 				//#endif
 				this.data = JSON.parse(decodeURIComponent(e.data));
 				this.itemid = this.data.itemid;
+				this.goodssign = this.data.goodssign;
 				this.itempic = this.data.itempic;
 				this.itemtitle = this.data.itemtitle;
 				this.itemprice = this.data.itemprice;
@@ -432,13 +435,12 @@
 					title: '加载中...'
 				});
 				this.$Request.get(this.$Api.goods.iteminfo_pdd,{
-					NumIids: that.itemid
+					NumIids: that.goodssign
 				}).then(res => {
 					if (res.Code === 1) {
 						that.goods = res.Message[0];
-						
 						this.$Request.get(this.$Api.goods.itemurl_pdd,{
-							NumIids: that.itemid
+							NumIids: that.goodssign
 						}).then(res_url_pdd => {
 							if (res_url_pdd.Code === 1) {
 							    this.coupon_click_url = res_url_pdd.Message[0].mobile_short_url;
@@ -517,6 +519,7 @@
 							console.log(ex);
 						}
 					} else {
+						console.log(res);
 						uni.navigateBack();
 					}
 					uni.hideLoading();

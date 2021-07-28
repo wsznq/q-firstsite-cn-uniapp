@@ -66,7 +66,6 @@
 			if (a) {
 				this.isEnable = a;
 			}
-		
 			this.loadPddCouponList();
 			this.getUserInfo();
 
@@ -79,7 +78,6 @@
 				uni.showLoading({
 					title: '加载中...'
 				});
-				
 				let apiUrl = this.$Api.common.coupontoplist_pdd;
 				this.loadingType = 1;
 				this.$Request.getT(apiUrl,{

@@ -365,6 +365,7 @@
 					this.$queue.setData('relation', relation);
 				}
 				//#endif
+				
 				this.data = JSON.parse(decodeURIComponent(e.data));
 				this.itemid = this.data.itemid;
 				this.itempic = this.data.itempic;
